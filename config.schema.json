@@ -1,0 +1,30 @@
+{
+    "pluginAlias": "Medion Vacuum Cleaner",
+    "pluginType": "accessory",
+    "singular": true,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "The name of your vacuum cleaner on HomeKit",
+          "type": "string",
+          "required": true
+        },
+        "statusUrl": {
+            "title": "The URL used to check the status of the vacuum cleaner",
+            "type": "string",
+            "required": true
+        },
+        "cleanUrl": {
+            "title": "The URL used to start cleaning",
+            "type": "string",
+            "required": true
+        },
+        "chargeUrl": {
+            "title": "The URL used to charge",
+            "type": "string",
+            "required": true
+        }
+      }
+    }
+  }
